@@ -10,6 +10,7 @@ COPY . /app/
 
 RUN pip install -r requirements.txt
 
-EXPOSE 8800
+EXPOSE 8000
 
-CMD ["flet", "run", "--web", "--port", "8800", "todo.py"]
+# CMD ["flet", "run", "--web", "--port", "8800", "todo.py"]
+CMD ["python", "app.py"]

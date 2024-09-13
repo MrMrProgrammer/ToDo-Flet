@@ -1,7 +1,7 @@
 import flet as ft
 import requests
 
-API_URL = "http://127.0.0.1:8000/todos"
+API_URL = "https://todo-flet-fastapi.liara.run/todos"
 
 class TodoApp:
     def __init__(self, page: ft.Page):
