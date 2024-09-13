@@ -75,4 +75,7 @@ class TodoApp:
 def main(page: ft.Page):
     todo_app = TodoApp(page)  # پارامتر page را به TodoApp منتقل کنید
 
-ft.app(target=main)
+# ft.app(target=main)
+
+if __name__ == "__main__":
+    ft.app(target=main, host="0.0.0.0", port=8001)
